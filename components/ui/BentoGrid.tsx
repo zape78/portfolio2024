@@ -17,7 +17,7 @@ export const BentoGrid = ({
       {children}
     </div>
   );
-}; 
+};
 
 export const BentoGridItem = ({
   className,
@@ -27,7 +27,7 @@ export const BentoGridItem = ({
   img,
   titleClassName,
   imgClassName,
-  spareImg, 
+  spareImg,
 }: {
   className?: string;
   title?: string | React.ReactNode;
@@ -47,12 +47,11 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: 'rgb(4, 7, 29)',
-        backgroundColor: 'gradient...'
+        background: "rgb(4, 7, 29)",
+        backgroundColor: "gradient...",
       }}
     >
       <div className="group-hover/bento:translate-x-2 transition duration-200">
-
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title}
         </div>
